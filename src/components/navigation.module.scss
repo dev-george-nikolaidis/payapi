@@ -1,0 +1,29 @@
+.navigation {
+	grid-column: 2 / 14;
+	// height: 16.2rem;
+	// display: grid;
+	// grid-template-columns: [full-start] minmax(14rem, auto) [col-start] repeat(12, minmax(6.5rem, 12rem)) minmax(14rem, auto) [full-end];
+	// grid-template-rows: max-content;
+	// grid-column-gap: 3rem;
+	margin-top: 4rem;
+	display: flex;
+}
+
+.logo_wrapper {
+	margin-right: 6.4rem;
+}
+
+.link_container {
+	display: flex;
+	align-items: center;
+	gap: 3.5rem;
+}
+
+.btn_cta {
+	width: 17.3rem;
+	height: 4.8rem;
+	letter-spacing: -0.12px;
+	background-color: var(--clr-pink-400);
+	border-radius: 2.4rem;
+	margin-left: auto;
+}

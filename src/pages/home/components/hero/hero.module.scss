@@ -1,0 +1,20 @@
+.hero {
+	grid-column: 2 /14;
+
+	display: grid;
+	height: 58rem;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+		"text_context image_wrapper"
+		"text_context image_wrapper";
+}
+
+.text_context {
+	background-color: aquamarine;
+	grid-area: text_context;
+}
+
+.image_wrapper {
+	background-color: blanchedalmond;
+	grid-area: image_wrapper;
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans&display=swap");
 
 html {
 	font-size: 62.5%;
@@ -6,14 +6,12 @@ html {
 
 :root {
 	/* Colors */
-	--clr-Violet-400: #5964e0;
-	--clr-Violet-300: #939bf4;
-	--clr-white-400: #ffff;
-	--clr-blue-500: #19202d;
-	--clr-blue-600: #121721;
-	--clr-grey-400: #9daec2;
-	--clr-grey-500: #6e8098;
-	--clr-grey-300: #f4f6f8;
+	--clr-pink-400: #ba4270;
+	--clr-water-white-400: #fbfcfe;
+	--clr-san-blue-400: #36536b;
+	--clr-san-blue-300: #6c8294;
+	--clr-mirage-blue-400: #1b262f;
+	--clr-charm-pink-400: #da6d97;
 
 	// --fs-900: 20rem;
 	// --fs-800: 4rem;
@@ -28,8 +26,8 @@ html {
 	// --fs-200: 1.5rem;
 	--transition: all 0.5s ease-in-out;
 	--box-shadow-400: 0 3px 8px rgba(0, 0, 0, 0.1);
-	--ff-normal: "Kumbh Sans", sans-serif;
-
+	--ff-normal: "Public Sans", sans-serif;
+	// 'DM Serif Display',
 	--clr-sub-header: #000;
 }
 
@@ -146,12 +144,13 @@ select {
 /*****************        Typography            **************************/
 
 /*****************      Components            **************************/
-.header_h1 {
-	font-size: var(--fs-800);
+
+.btn {
+	border: none;
+	cursor: pointer;
+	transition: var(--transition);
+	color: #fff;
 	font-weight: 700;
-	line-height: 48px;
-	letter-spacing: 4.17px;
-	text-transform: uppercase;
 }
 
 /*****************      Media queries            **************************/
