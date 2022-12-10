@@ -5,7 +5,23 @@
 	grid-column-gap: 3rem;
 	background-color: var(--clr-grey-300);
 	background-color: #edf3f8;
-	min-height: 100vh;
+	height: 100%;
+	position: relative;
+
+	// only for development
+	padding-bottom: 15rem;
+}
+
+.bg_hero_image {
+	background-image: url("../../assets/shared/desktop/bg-pattern-circle.svg");
+	background-size: 100%;
+	width: 78rem;
+	height: 78rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -18rem;
+	right: -14rem;
+	z-index: 0;
 }
 
 // / 760px 1024px

@@ -1,0 +1,91 @@
+.sponsors {
+	grid-column: full-start / full-end;
+	background-color: #1b262f;
+
+	display: grid;
+	height: 47.2rem;
+	grid-template-columns: [full-start] minmax(14rem, auto) [col-start] repeat(12, minmax(6.5rem, 12rem)) minmax(14rem, auto) [full-end];
+	grid-template-rows: max-content;
+	grid-column-gap: 3rem;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column: 2 / 14;
+	grid-template-areas: "text_area logos_area";
+}
+
+.text_container {
+	// grid-column: 2 / 8;
+	height: 47.2rem;
+	grid-area: text_area;
+}
+
+.logos_container {
+	// grid-column: 8 / 14;
+	// background-color: aquamarine;
+	height: 47.2rem;
+	grid-area: logos_area;
+}
+
+.sponsors_title {
+	margin: 10rem 0 2.4rem 0;
+	font-size: var(--fs-700);
+	color: #fbfcfe;
+	line-height: 56px;
+	letter-spacing: -0.37px;
+	font-family: "DM Serif Display";
+}
+
+.text_pitch {
+	max-width: 45rem;
+	line-height: 28px;
+	color: #fbfcfe9c;
+	margin-bottom: 3.2rem;
+}
+
+.btn_about_us {
+	width: 12rem;
+	height: 4.8rem;
+	border-radius: 2.4rem;
+	color: #fbfcfe;
+	font-weight: 700;
+	background-color: transparent;
+	border: 1px solid #fbfcfe;
+}
+
+.logos_container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-content: center;
+	gap: 4.5rem 6rem;
+	height: 100%;
+}
+
+.bg_image {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 1.7rem;
+	display: block;
+	background-color: #fff;
+}
+
+.tesla {
+	background-image: url("../../../../assets/shared/desktop/tesla.svg");
+}
+.microsoft {
+	background-image: url("../../../../assets/shared/desktop/microsoft.svg");
+}
+.hp {
+	background-image: url("../../../../assets/shared/desktop/hewlett-packard.svg");
+}
+.oracle {
+	background-image: url("../../../../assets/shared/desktop/oracle.svg");
+}
+.google {
+	background-image: url("../../../../assets/shared/desktop/google.svg");
+}
+.nvidia {
+	background-image: url("../../../../assets/shared/desktop/nvidia.svg");
+}
