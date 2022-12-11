@@ -7,6 +7,19 @@
 	grid-template-columns: [full-start] minmax(14rem, auto) [col-start] repeat(12, minmax(6.5rem, 12rem)) minmax(14rem, auto) [full-end];
 	grid-template-rows: max-content;
 	grid-column-gap: 3rem;
+	position: relative;
+	overflow: hidden;
+}
+
+.bg_sponsors {
+	background-image: url("../../../../assets/shared/desktop/bg-pattern-circle.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 78rem;
+	height: 78rem;
+	position: absolute;
+	left: -24rem;
+	bottom: 5.1rem;
 }
 
 .wrapper {
@@ -61,31 +74,4 @@
 	align-content: center;
 	gap: 4.5rem 6rem;
 	height: 100%;
-}
-
-.bg_image {
-	background-size: contain;
-	background-repeat: no-repeat;
-	height: 1.7rem;
-	display: block;
-	background-color: #fff;
-}
-
-.tesla {
-	background-image: url("../../../../assets/shared/desktop/tesla.svg");
-}
-.microsoft {
-	background-image: url("../../../../assets/shared/desktop/microsoft.svg");
-}
-.hp {
-	background-image: url("../../../../assets/shared/desktop/hewlett-packard.svg");
-}
-.oracle {
-	background-image: url("../../../../assets/shared/desktop/oracle.svg");
-}
-.google {
-	background-image: url("../../../../assets/shared/desktop/google.svg");
-}
-.nvidia {
-	background-image: url("../../../../assets/shared/desktop/nvidia.svg");
 }

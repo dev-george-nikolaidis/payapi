@@ -1,9 +1,16 @@
 import styles from "./sponsors.module.scss";
+import Tesla_icon from "../../../../assets/shared/desktop/tesla.svg";
+import Tesla from "../../../../components/icons/Tesla";
+import Microsoft from "../../../../components/icons/Microsoft";
+import Hp from "../../../../components/icons/Hp";
+import Oracle from "../../../../components/icons/Oracle";
+import Google from "../../../../components/icons/Google";
+import Nvidia from "../../../../components/icons/Nvidia";
 
-// TODO IMPORT ALL SVGS AND MAKE  CUSTOM FILL WHITE PROPERTY , CLIP THE CIRCLE TO THE TOP LET CORNER ;
 const Sponsors: React.FC = () => {
 	return (
 		<section className={styles.sponsors}>
+			<div className={styles.bg_sponsors}></div>
 			<div className={styles.wrapper}>
 				<div className={styles.text_container}>
 					<h4 className={styles.sponsors_title}> Who we work with</h4>
@@ -14,12 +21,12 @@ const Sponsors: React.FC = () => {
 					<button className={`${styles.btn_about_us} btn`}>About Us</button>
 				</div>
 				<div className={styles.logos_container}>
-					<div className={`${styles.tesla} ${styles.bg_image}`}></div>
-					<div className={`${styles.microsoft} ${styles.bg_image}`}></div>
-					<div className={`${styles.hp} ${styles.bg_image}`}></div>
-					<div className={`${styles.oracle} ${styles.bg_image}`}></div>
-					<div className={`${styles.google} ${styles.bg_image}`}></div>
-					<div className={`${styles.nvidia} ${styles.bg_image}`}></div>
+					<Tesla fill="#fff" />
+					<Microsoft fill="#fff" />
+					<Hp fill="#fff" />
+					<Oracle fill="#fff" />
+					<Google fill="#fff" />
+					<Nvidia fill="#fff" />
 				</div>
 			</div>
 		</section>
