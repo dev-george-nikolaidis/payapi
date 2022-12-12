@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
 import Features from "./components/features/Features";
 import Hero from "./components/hero/Hero";
@@ -8,10 +9,12 @@ const Home: React.FC = () => {
 	return (
 		<section className={styles.home}>
 			<div className={styles.bg_hero_image}></div>
+
 			<Navigation />
 			<Hero />
 			<Sponsors />
 			<Features />
+			<Footer />
 		</section>
 	);
 };

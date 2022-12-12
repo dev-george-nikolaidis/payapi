@@ -4,7 +4,7 @@ import Simple_img from "../../../../assets/home/desktop/illustration-simple-ui.s
 import Finances_img from "../../../../assets/home/desktop/icon-personal-finances.svg";
 import Banking_img from "../../../../assets/home/desktop/icon-banking-and-coverage.svg";
 import Card_img from "../../../../assets/home/desktop/icon-consumer-payments.svg";
-
+// TODO fix feature bg image at home page
 const Features: React.FC = () => {
 	return (
 		<section className={styles.easy_use}>
@@ -21,6 +21,7 @@ const Features: React.FC = () => {
 			</div>
 
 			<div className={styles.simple_container}>
+				<div className={styles.bg_feature_image}></div>
 				<div className={styles.simple_context}>
 					<h5 className={styles.simple_title}>Simple UI & UX</h5>
 					<p className={styles.simple_text}>Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion. </p>
@@ -51,6 +52,14 @@ const Features: React.FC = () => {
 					<p className={styles.single_feature_text}>
 						It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.{" "}
 					</p>
+				</div>
+			</div>
+
+			<div className={styles.newsletter}>
+				<p className={styles.newsletter_text}>Ready to start?</p>
+				<div className={styles.newsletter_input_container}>
+					<input type="text" placeholder="Enter email address" className={styles.newsletter_input} />
+					<button className={`${styles.btn_newsletter} btn`}>Schedule a Demo</button>
 				</div>
 			</div>
 		</section>

@@ -27,7 +27,7 @@ const Navigation: React.FC = () => {
 					</NavLink>
 				</li>
 			</div>
-			<button className={`${styles.btn_cta}  btn`}>Schedule a Demo</button>
+			<button className={`${styles.btn_cta} btn`}>Schedule a Demo</button>
 		</nav>
 	);
 };
