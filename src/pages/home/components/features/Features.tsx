@@ -4,6 +4,8 @@ import Simple_img from "../../../../assets/home/desktop/illustration-simple-ui.s
 import Finances_img from "../../../../assets/home/desktop/icon-personal-finances.svg";
 import Banking_img from "../../../../assets/home/desktop/icon-banking-and-coverage.svg";
 import Card_img from "../../../../assets/home/desktop/icon-consumer-payments.svg";
+import Newsletter from "../../../../components/Newsletter";
+
 // TODO fix feature bg image at home page
 const Features: React.FC = () => {
 	return (
@@ -54,14 +56,7 @@ const Features: React.FC = () => {
 					</p>
 				</div>
 			</div>
-
-			<div className={styles.newsletter}>
-				<p className={styles.newsletter_text}>Ready to start?</p>
-				<div className={styles.newsletter_input_container}>
-					<input type="text" placeholder="Enter email address" className={styles.newsletter_input} />
-					<button className={`${styles.btn_newsletter} btn`}>Schedule a Demo</button>
-				</div>
-			</div>
+			<Newsletter />
 		</section>
 	);
 };

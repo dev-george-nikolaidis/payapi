@@ -12,17 +12,17 @@ const Navigation: React.FC = () => {
 			</div>
 			<div className={styles.link_container}>
 				<li>
-					<NavLink to="/pricing" end className={({ isActive }) => (isActive ? ` ${styles.active} ` : `${styles.inactive}`)}>
+					<NavLink to="/pricing" end className={({ isActive }) => (isActive ? ` ${styles.active}  ${styles.link}` : `${styles.inactive}  ${styles.link}`)}>
 						Pricing
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to="/about" end className={({ isActive }) => (isActive ? ` ${styles.active} ` : `${styles.inactive}`)}>
+					<NavLink to="/about" end className={({ isActive }) => (isActive ? ` ${styles.active}    ${styles.link}` : `${styles.inactive}  ${styles.link}`)}>
 						About
 					</NavLink>
 				</li>
 				<li>
-					<NavLink to="/contact" end className={({ isActive }) => (isActive ? ` ${styles.active} ` : `${styles.inactive}`)}>
+					<NavLink to="/contact" end className={({ isActive }) => (isActive ? ` ${styles.active}    ${styles.link}` : `${styles.inactive}  ${styles.link}`)}>
 						Contact
 					</NavLink>
 				</li>

@@ -28,3 +28,12 @@
 	border-radius: 2.4rem;
 	margin-left: auto;
 }
+
+.link {
+	color: rgba(54, 83, 107, 0.632);
+	transition: var(--transition);
+}
+
+.link:hover {
+	color: #36536b;
+}

@@ -1,0 +1,118 @@
+.pricing {
+	display: grid;
+	grid-template-columns: [full-start] minmax(14rem, auto) [col-start] repeat(12, minmax(6.5rem, 12rem)) minmax(14rem, auto) [full-end];
+	grid-template-rows: max-content;
+	grid-column-gap: 3rem;
+	background-color: #edf3f8;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.bg_image {
+	// bg-pattern-circle.svg
+	background-image: url("../../assets/shared/desktop/bg-pattern-circle.svg");
+	background-size: 100%;
+	width: 78rem;
+	height: 78rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -53rem;
+	right: -14.7rem;
+	z-index: 0;
+}
+
+.pricing_container {
+	grid-column: 2 / 14;
+}
+
+.cards_container {
+	display: grid;
+	grid-auto-flow: column;
+	gap: 0 3rem;
+}
+
+.title {
+	font-family: "DM Serif Display";
+	font-size: var(--fs-750);
+	margin: 8.2rem 0 7.2rem 0;
+	color: #36536b;
+	letter-spacing: -0.43px;
+	line-height: 56px;
+}
+
+.single_card {
+	max-width: 35rem;
+}
+
+.single_title {
+	font-size: var(--fs-650);
+	color: #ba4270;
+	letter-spacing: -0.25px;
+	font-family: "DM Serif Display";
+	line-height: 40px;
+	margin-bottom: 1.6rem;
+}
+
+.single_text {
+	margin-bottom: 0.8rem;
+	line-height: 28px;
+	color: #6c8294;
+}
+
+.single_price {
+	font-family: "DM Serif Display";
+	color: #36536b;
+	font-size: var(--fs-750);
+	letter-spacing: -0.43px;
+	line-height: 72px;
+	padding-bottom: 2.4rem;
+	border-bottom: 1px dotted #36536b81;
+	margin-bottom: 2.4rem;
+}
+
+.groups_container {
+	border-bottom: 1px dotted #36536b;
+	padding-bottom: 1.4rem;
+}
+
+.group_card {
+	display: flex;
+	align-items: center;
+	margin-left: -0.4rem;
+	height: 2.8rem;
+	margin-bottom: 0.8rem;
+}
+
+.img_check {
+	// margin-right: rem;
+}
+
+.group_include {
+	margin-left: 2.4rem;
+}
+.group_not_include {
+	color: #36536b6d;
+	margin-left: 3.6rem;
+}
+
+.btn_cta {
+	width: 167px;
+	height: 48px;
+	border-radius: 2.4rem;
+	letter-spacing: -0.12px;
+	border: 1px solid #36536b;
+	background-color: transparent;
+	color: #36536b;
+	margin-top: 2.4rem;
+	margin-left: -2.4px;
+}
+
+.btn_cta:hover {
+	background-color: #36536b;
+	color: #fff;
+}
+
+.wrapper_container {
+	grid-column: 2 / 14;
+}

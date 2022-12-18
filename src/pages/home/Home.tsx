@@ -9,7 +9,6 @@ const Home: React.FC = () => {
 	return (
 		<section className={styles.home}>
 			<div className={styles.bg_hero_image}></div>
-
 			<Navigation />
 			<Hero />
 			<Sponsors />
