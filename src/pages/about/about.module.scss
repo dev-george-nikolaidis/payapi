@@ -28,8 +28,8 @@
 	margin-top: 5.1rem;
 }
 
-.sub_tile {
-	font-size: var(--fs-350);
+.sub_title {
+	font-size: var(--fs-650);
 	font-family: "DM Serif Display";
 	letter-spacing: -0.25px;
 	line-height: 40px;
@@ -44,14 +44,13 @@
 }
 
 .img_container_about {
-	// display: grid;
+	display: grid;
 	grid-column: 1 / -1;
-	outline: 1px solid red;
-	// position: relative;
+	position: relative;
 	// height: 40rem;
-	// padding-top: 10rem;
+	padding-top: 10rem;
 	background-color: #edf3f8;
-	background-color: purple;
+	// background-color: purple;
 	height: 50rem;
 }
 
@@ -65,15 +64,72 @@
 }
 
 .img_circle_bg {
-	// position: absolute;
-	// height: 78rem;
-	// width: 78rem;
-	// top: -6rem;
-	// left: -52rem;
-	// z-index: 0;
+	position: absolute;
+	height: 78rem;
+	width: 78rem;
+	top: -8rem;
+	left: -58rem;
+	z-index: 0;
 }
 
 .features_container {
 	grid-column: 2 / 14;
-	// background-color: red;
+	display: grid;
+	grid-template-columns: repeat(minmax(35rem, 1fr));
+	grid-auto-flow: column;
+	gap: 0 3rem;
+	margin-top: 7.2rem;
+	color: #36536b93;
+}
+
+.feature_group {
+	border-top: 1px solid #36536b70;
+	border-bottom: 1px solid #36536b70;
+	height: 13.4rem;
+}
+
+.group_title {
+	line-height: 28px;
+	margin-top: 1.6rem;
+}
+.group_number {
+	font-family: "DM Serif Display";
+	font-size: var(--fs-750);
+	color: #ba4270;
+	line-height: 7.2rem;
+	letter-spacing: -0.43px;
+}
+
+.small_feature_container {
+	grid-column: 3 / 14;
+	display: flex;
+	flex-direction: column;
+	gap: 5.6rem;
+	padding-top: 7.2rem;
+}
+
+.small_text_container {
+	display: flex;
+
+	// margin-top: 5.1rem;
+}
+
+.small_text {
+	line-height: 2.5rem;
+	max-width: 63.5rem;
+	margin-left: auto;
+	color: #6c8294;
+	margin-right: 9.5rem;
+}
+
+.small_title {
+	font-size: var(--fs-650);
+	font-family: "DM Serif Display";
+	letter-spacing: -0.25px;
+	line-height: 40px;
+	color: #36536b;
+}
+
+.wrapper_container {
+	grid-column: 2 / 14;
 }
