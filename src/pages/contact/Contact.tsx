@@ -1,4 +1,10 @@
 import Footer from "../../components/Footer";
+import Google from "../../components/icons/Google";
+import Hp from "../../components/icons/Hp";
+import Microsoft from "../../components/icons/Microsoft";
+import Nvidia from "../../components/icons/Nvidia";
+import Oracle from "../../components/icons/Oracle";
+import Tesla from "../../components/icons/Tesla";
 import Navigation from "../../components/Navigation";
 import Newsletter from "../../components/Newsletter";
 import styles from "./contact.module.scss";
@@ -29,7 +35,19 @@ const Contact: React.FC = () => {
 					</div>
 					<button className={`${styles.btn_sub} btn`}>Submit</button>
 				</div>
-				<div className={styles.sponsors_container}>Sponsors</div>
+				<div className={styles.sponsors_container}>
+					<div className={styles.sponsors_wrapper}>
+						<h3 className={styles.sponsors_title}>Join the thousands of innovators that are already building with us</h3>
+						<div className={styles.sponsors_icons_container}>
+							<Tesla fill="#36536B" />
+							<Microsoft fill="#36536B" />
+							<Hp fill="#36536B" />
+							<Oracle fill="#36536B" />
+							<Google fill="#36536B" />
+							<Nvidia fill="#36536B" />
+						</div>
+					</div>
+				</div>
 			</div>
 			<div className={styles.wrapper_container}>
 				<Newsletter />

@@ -1,4 +1,4 @@
-const Tesla: React.FC<{ fill: string }> = ({ fill = "#36536B" }) => {
+const Tesla: React.FC<{ fill?: string }> = ({ fill = "#36536B" }) => {
 	return (
 		<svg width="131" height="17" xmlns="http://www.w3.org/2000/svg">
 			<path

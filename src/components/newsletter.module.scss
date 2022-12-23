@@ -34,3 +34,33 @@
 	background-color: var(--clr-pink-400);
 	border-radius: 2.4rem;
 }
+
+// / 760px 1024px
+@media (max-width: 64em) {
+	.newsletter {
+		margin-top: 9.6rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.newsletter_text {
+		margin-bottom: 4rem;
+	}
+}
+
+@media (max-width: 30em) {
+	.newsletter_input_container {
+		position: relative;
+		width: 100%;
+	}
+	.newsletter_input {
+		width: 100%;
+	}
+
+	.btn_newsletter {
+		position: unset;
+		margin-top: 1.6rem;
+		width: 100%;
+	}
+}

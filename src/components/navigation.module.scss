@@ -37,3 +37,30 @@
 .link:hover {
 	color: #36536b;
 }
+
+.hamburger_icon {
+	display: none;
+}
+
+// / 760px 1024px
+@media (max-width: 64em) {
+}
+
+// 375 -480px
+@media (max-width: 30em) {
+	.link_container {
+		display: none;
+	}
+	.btn_cta {
+		display: none;
+	}
+	.hamburger_icon {
+		display: block;
+		width: 3rem;
+		height: 2rem;
+		align-self: center;
+		margin-left: auto;
+		color: #36536b;
+		margin-right: 1rem;
+	}
+}

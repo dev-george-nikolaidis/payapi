@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styles from "./navigation.module.scss";
 import Logo from "../assets/shared/desktop/logo.svg";
+import { FaAlignJustify } from "react-icons/fa";
 
 const Navigation: React.FC = () => {
 	return (
@@ -28,6 +29,7 @@ const Navigation: React.FC = () => {
 				</li>
 			</div>
 			<button className={`${styles.btn_cta} btn`}>Schedule a Demo</button>
+			<FaAlignJustify className={styles.hamburger_icon} />
 		</nav>
 	);
 };

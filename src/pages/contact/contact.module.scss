@@ -35,10 +35,10 @@
 	width: 44.5rem;
 }
 .sponsors_container {
-	background-color: salmon;
 }
 
 .form_group {
+	width: 100%;
 }
 
 .input_el {
@@ -93,4 +93,118 @@
 
 .wrapper_container {
 	grid-column: 2 / 14;
+}
+
+.sponsors_title {
+	color: #36536b;
+	font-size: var(--fs-620);
+	letter-spacing: -0.18px;
+	line-height: 32px;
+	margin-bottom: 4rem;
+}
+
+.sponsors_icons_container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4rem 6rem;
+}
+.sponsors_wrapper {
+	margin-top: 10.5rem;
+	max-width: 54rem;
+	height: 20.8rem;
+}
+
+@media (max-width: 64em) {
+	.contact {
+		grid-template-columns: [full-start] minmax(4rem, auto) [col-start] repeat(12, minmax(4.8rem, 12rem)) minmax(4rem, auto) [full-end];
+		grid-column-gap: 1rem;
+	}
+
+	.contact_title {
+		margin-top: 7.5rem;
+		justify-self: center;
+		text-align: center;
+		width: 50rem;
+		font-size: var(--fs-800-t);
+		letter-spacing: -0.37px;
+	}
+
+	.context_container {
+		grid-column: 2 / 14;
+		display: grid;
+		grid-template-columns: 1fr;
+		// grid-auto-flow: row;
+		height: 100%;
+		margin-top: 5rem;
+		align-content: center;
+		justify-items: center;
+	}
+
+	.sponsors_wrapper {
+		margin-top: 6.4rem;
+		width: 100%;
+		height: 20.8rem;
+	}
+	.sponsors_title {
+		text-align: center;
+	}
+}
+
+@media (max-width: 30em) {
+	.contact {
+		grid-template-columns: [full-start] minmax(1rem, auto) [col-start] repeat(12, minmax(2rem, 12rem)) minmax(1rem, auto) [full-end];
+		grid-column-gap: 1rem;
+	}
+
+	.contact_title {
+		margin-top: 4.8rem;
+		width: 100%;
+		font-size: var(--fs-800-s);
+		letter-spacing: -0.37px;
+	}
+	.context_container {
+		grid-column: 2 / 14;
+		grid-template-columns: 1fr;
+		height: 100%;
+
+		// align-items: center;
+		margin-top: 4.3rem;
+	}
+
+	.form_container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0 5%;
+	}
+
+	.sponsors_icons_container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 4rem 6rem;
+	}
+	.sponsors_wrapper {
+		margin-top: 10.5rem;
+		margin-bottom: 8rem;
+		width: 100%;
+		height: 28rem;
+	}
+
+	.input_el {
+		width: 100%;
+	}
+
+	.sponsors_title {
+		font-size: var(--fs-700-s);
+		width: 32rem;
+		margin-bottom: 3.2rem;
+	}
+
+	.textarea_el {
+		width: 100%;
+	}
+
+	.agreement_container {
+		width: 100%;
+	}
 }

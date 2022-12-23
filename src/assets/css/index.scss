@@ -18,6 +18,7 @@ html {
 	--fs-750: 5.6rem;
 	--fs-700: 4.8rem;
 	--fs-650: 3.2rem;
+	--fs-620: 2.8rem;
 	--fs-600: 2rem;
 	--fs-500: 1.8rem;
 	--fs-400: 1.6rem;
@@ -167,9 +168,8 @@ select {
 // 481px -  1024px
 @media (min-width: 30.1em) and (max-width: 64em) {
 	:root {
-		// Tablet
 		// --fs-900-t: 17.5rem;
-		// --fs-800-t: 4rem;
+		--fs-800-t: 4.8rem;
 		// --fs-700-t: 3.2rem;
 		// --fs-600-t: 1.8rem;
 		// --fs-500-t: 1.8rem;
@@ -181,20 +181,12 @@ select {
 @media (max-width: 30em) {
 	:root {
 		// Smartphone
-		// --fs-900-s: 10rem;
+		--fs-900-s: 3.6rem;
 		--fs-800-s: 3.2rem;
-		--fs-700-s: 1.5rem;
+		--fs-700-s: 2.4rem;
 		--fs-600-s: 1.4rem;
 		--fs-400-s: 1.2rem;
 		// --fs-200-s: 1rem;
-	}
-
-	.header_h1 {
-		font-size: var(--fs-800-s);
-		font-weight: 700;
-		line-height: 40px;
-		letter-spacing: 3.3px;
-		text-transform: uppercase;
 	}
 }
 

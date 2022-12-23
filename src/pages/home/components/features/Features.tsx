@@ -6,7 +6,6 @@ import Banking_img from "../../../../assets/home/desktop/icon-banking-and-covera
 import Card_img from "../../../../assets/home/desktop/icon-consumer-payments.svg";
 import Newsletter from "../../../../components/Newsletter";
 
-// TODO fix feature bg image at home page
 const Features: React.FC = () => {
 	return (
 		<section className={styles.easy_use}>
