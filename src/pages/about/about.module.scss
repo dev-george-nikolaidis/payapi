@@ -133,3 +133,128 @@
 .wrapper_container {
 	grid-column: 2 / 14;
 }
+
+@media (max-width: 64em) {
+	.about {
+		grid-template-columns: [full-start] minmax(4rem, auto) [col-start] repeat(12, minmax(4.8rem, 12rem)) minmax(4rem, auto) [full-end];
+		grid-column-gap: 1rem;
+	}
+
+	.about_title {
+		width: 56rem;
+		font-size: var(--fs-800-t);
+		letter-spacing: -0.37px;
+		margin-top: 7.5rem;
+		text-align: center;
+	}
+
+	.sub_text_container {
+		display: grid;
+		grid-template-columns: 22rem 1fr;
+		margin-top: 5.1rem;
+		width: 100%;
+	}
+
+	.sub_text {
+		line-height: 28px;
+		width: 100%;
+		margin-left: auto;
+		color: #6c8294;
+		margin-right: 9.5rem;
+	}
+
+	.img_circle_bg {
+		display: none;
+	}
+	.group_title {
+		opacity: 0;
+	}
+
+	.small_feature_container {
+		grid-column: 2 / 14;
+		display: flex;
+		gap: 5.6rem;
+		padding-top: 7.2rem;
+	}
+
+	.small_title {
+		flex: 1;
+	}
+	.small_text {
+		width: unset;
+		flex: 2;
+		margin: 0;
+	}
+}
+
+@media (max-width: 30em) {
+	.about {
+		grid-template-columns: [full-start] minmax(1rem, auto) [col-start] repeat(12, minmax(2rem, 12rem)) minmax(1rem, auto) [full-end];
+		grid-column-gap: 1rem;
+	}
+
+	.about_title {
+		width: 100%;
+		font-size: var(--fs-800-s);
+		line-height: 36px;
+		letter-spacing: -0.25px;
+		margin-top: 4.8rem;
+	}
+	.sub_text_container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5.1rem;
+		width: 100%;
+	}
+
+	.about_hero {
+		grid-column: 2 / 14;
+	}
+	.about_image_bg {
+		background-image: url("../../assets/about/mobile/image-team-members.jpg");
+	}
+
+	.feature_group {
+		border: none;
+		height: 10rem;
+		text-align: center;
+	}
+
+	.features_container {
+		grid-column: 2 / 14;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 3.2rem 0;
+		margin-top: 7.2rem;
+		color: #36536b93;
+		padding-bottom: 2rem;
+		border-top: 1px solid #36536b70;
+		border-bottom: 1px solid #36536b70;
+	}
+
+	.group_title {
+		opacity: 1;
+	}
+
+	.small_feature_container {
+		grid-column: 2 / 14;
+		display: flex;
+		flex-direction: column;
+		gap: 5.6rem;
+		padding-top: 7.2rem;
+	}
+
+	.small_text_container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		// margin-top: 5.1rem;
+	}
+
+	.small_title {
+		margin-bottom: 1.6rem;
+	}
+}

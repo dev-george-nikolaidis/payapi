@@ -35,6 +35,43 @@
 	border-radius: 2.4rem;
 }
 
+.menu_modal {
+	position: absolute;
+	z-index: 2;
+	height: 25.6rem;
+	background-color: #fff;
+	top: 6.8rem;
+	left: 0;
+	right: 0;
+}
+
+.list_modal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+	margin-top: 3.2rem;
+	// background-color: gainsboro;
+}
+
+.span_text {
+	font-size: var(--fs-700-s);
+	margin-bottom: 2rem;
+}
+.modal_line {
+	width: 90%;
+	height: 1px;
+	background-color: var(--clr-grey-400);
+	margin: 1.2rem auto;
+}
+
+.link_cta {
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 2.5rem;
+}
+
 // / 760px 1024px
 @media (max-width: 64em) {
 	.newsletter {

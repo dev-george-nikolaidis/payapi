@@ -44,6 +44,7 @@ const About: React.FC = () => {
 						<p className={styles.group_number}>10M+</p>
 					</div>
 				</div>
+
 				<div className={styles.small_feature_container}>
 					<div className={styles.small_text_container}>
 						<p className={styles.small_title}>The Culture</p>
@@ -59,6 +60,7 @@ const About: React.FC = () => {
 						</p>
 					</div>
 				</div>
+
 				<div className={styles.wrapper_container}>
 					<Newsletter />
 				</div>
