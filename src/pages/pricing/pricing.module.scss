@@ -133,6 +133,12 @@
 	.cards_container {
 		gap: 0 1rem;
 	}
+
+	.bg_image {
+		top: -53rem;
+		right: -50rem;
+		z-index: 0;
+	}
 }
 
 @media (max-width: 30em) {
@@ -175,5 +181,11 @@
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
+	}
+
+	.bg_image {
+		top: -65rem;
+		right: -50rem;
+		z-index: 0;
 	}
 }

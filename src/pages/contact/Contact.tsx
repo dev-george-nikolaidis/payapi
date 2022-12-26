@@ -13,6 +13,7 @@ const Contact: React.FC = () => {
 	return (
 		<section className={styles.contact}>
 			<Navigation />
+			<div className={styles.bg_about_header}></div>
 			<h2 className={styles.contact_title}>Submit a help request and we’ll get in touch shortly.</h2>
 			<div className={styles.context_container}>
 				<div className={styles.form_container}>

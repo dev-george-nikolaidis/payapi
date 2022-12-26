@@ -1,16 +1,16 @@
-<!-- # Jobbuddy App
+# Payapi App
 
-## For live preview click <strong>[here](https://jobduddy-app.netlify.app/)</strong>
+## For live preview click <strong>[here](https://payapi-app.netlify.app/)</strong> -->
 
 ## Desktop design overview home page
 
 ![Desktop design overview](./src/assets/img/final/home-desktop.png)
 
-## Tablet design overview single job page
+## Tablet design overview pricing page
 
 ![Desktop design overview](./src/assets/img/final/single-job-tablet.png)
 
-## Mobile design overview mobile single job page
+## Mobile design overview mobile about page
 
 ![Desktop design overview](./src/assets/img/final/single-job-mobile.png)
 

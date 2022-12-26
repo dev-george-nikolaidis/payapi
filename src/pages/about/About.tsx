@@ -9,6 +9,7 @@ const About: React.FC = () => {
 		<>
 			<section className={styles.about}>
 				<Navigation />
+				<div className={styles.bg_about_header}></div>
 				<div className={styles.about_hero}>
 					<h2 className={styles.about_title}>We empower innovators by delivering access to the financial system</h2>
 					<div className={styles.sub_text_container}>

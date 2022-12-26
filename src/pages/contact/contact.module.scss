@@ -114,6 +114,17 @@
 	height: 20.8rem;
 }
 
+.bg_about_header {
+	background-image: url("../../assets/shared/desktop/bg-pattern-circle.svg");
+	background-size: 100%;
+	width: 78rem;
+	height: 78rem;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -60rem;
+	right: -20rem;
+	z-index: 0;
+}
 @media (max-width: 64em) {
 	.contact {
 		grid-template-columns: [full-start] minmax(4rem, auto) [col-start] repeat(12, minmax(4.8rem, 12rem)) minmax(4rem, auto) [full-end];
@@ -147,6 +158,12 @@
 	}
 	.sponsors_title {
 		text-align: center;
+	}
+
+	.bg_about_header {
+		top: -55rem;
+		right: -45rem;
+		z-index: 0;
 	}
 }
 
@@ -206,5 +223,10 @@
 
 	.agreement_container {
 		width: 100%;
+	}
+	.bg_about_header {
+		top: -65rem;
+		right: -50rem;
+		z-index: 0;
 	}
 }

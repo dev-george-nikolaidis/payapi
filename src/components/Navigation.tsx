@@ -4,6 +4,7 @@ import Logo from "../assets/shared/desktop/logo.svg";
 import { FaAlignJustify } from "react-icons/fa";
 import { useState } from "react";
 import { MdClose } from "react-icons/md";
+import HambIcon from "../assets/shared/mobile/menu.svg";
 
 const Navigation: React.FC = () => {
 	const [displayMenu, setDisplayMenu] = useState(false);
@@ -33,6 +34,7 @@ const Navigation: React.FC = () => {
 				</li>
 			</div>
 			<button className={`${styles.btn_cta} btn`}>Schedule a Demo</button>
+			{/* <img src={HambIcon} alt="" className={styles.hamburger_menu} onClick={() => setDisplayMenu(!displayMenu)} /> */}
 			<div className={styles.hamburger_menu} onClick={() => setDisplayMenu(!displayMenu)}>
 				{!displayMenu ? (
 					<>

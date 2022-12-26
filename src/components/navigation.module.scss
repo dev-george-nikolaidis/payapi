@@ -10,6 +10,9 @@
 	display: flex;
 }
 
+.menu_modal {
+	display: none;
+}
 .logo_wrapper {
 	margin-right: 6.4rem;
 }
@@ -80,6 +83,7 @@
 	}
 
 	.menu_modal {
+		display: block;
 		position: absolute;
 		z-index: 5;
 		height: 25.6rem;
